@@ -26,7 +26,7 @@ const FormSignup = () => {
               <label htmlFor="userInput">Usuario</label>
               <input
                 id="userInput"
-                placeholder="JuanPerez30"
+                placeholder="username"
                 type="text"
                 className="form-control"
                 name="username"
@@ -36,7 +36,7 @@ const FormSignup = () => {
               <label htmlFor="dateInput">Fecha de Nacimiento</label>
               <input
                 id="dateInput"
-                placeholder="30-05-1990"
+                placeholder="dd-mm-yyyy"
                 type="text"
                 className="form-control"
                 name="date"
@@ -46,7 +46,7 @@ const FormSignup = () => {
               <label htmlFor="phoneInput">Celular</label>
               <input
                 id="phoneInput"
-                placeholder="3194294588"
+                placeholder="phone number"
                 type="text"
                 className="form-control"
                 name="phone"
